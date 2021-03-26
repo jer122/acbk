@@ -1,6 +1,7 @@
 package com.acbk.repository;
 
 import com.acbk.domain.User;
+import com.acbk.dto.UserDto;
 import org.springframework.data.jpa.repository.EntityGraph;
 import org.springframework.data.jpa.repository.JpaRepository;
 

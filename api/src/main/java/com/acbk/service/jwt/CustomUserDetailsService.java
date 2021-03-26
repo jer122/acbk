@@ -1,4 +1,4 @@
-package com.acbk.service;
+package com.acbk.service.jwt;
 
 import com.acbk.domain.User;
 import com.acbk.repository.UserRepository;

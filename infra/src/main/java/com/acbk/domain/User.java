@@ -9,7 +9,6 @@ import java.util.Set;
 @Entity
 @Table(name = "user")
 @Getter
-@Setter
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
@@ -35,7 +34,7 @@ public class User {
     @Column(name = "activated")
     private boolean activated;
 
-    @ManyToMany
+    @OneToMany
     @JoinTable(
             name = "user_authority",
             joinColumns = {@JoinColumn(name = "user_id", referencedColumnName = "user_id")},
